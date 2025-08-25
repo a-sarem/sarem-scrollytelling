@@ -1,8 +1,22 @@
 <script>
-    import TitleCard from "../lib/TitleCard.svelte";
-    
-    const title = "Welcome to the KWK Scrollytelling Template";
-    const subtitle = "A journey through data, creativity, and code";
+  import TitleCard from "../lib/TitleCard.svelte";
+
+  const title =
+    "Disparities in Profitability: A Study of Race and Business Ownership";
+  const subtitle = "By Sarem Agha";
 </script>
 
-<TitleCard {title} {subtitle} />
+<div class="background-container">
+  <TitleCard {title} {subtitle} />
+</div>
+
+<style>
+  .background-container {
+    background-image: url("/kwk-scrollytelling-template/titlepage_background.jpg");
+    background-size: cover;
+    height: auto;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+</style>
