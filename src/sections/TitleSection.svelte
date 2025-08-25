@@ -2,7 +2,7 @@
   import TitleCard from "../lib/TitleCard.svelte";
 
   const title =
-    "Disparities in Profitability: A Study of Race and Business Ownership";
+    "Disparities in Profitability: A Study of Race & Business Ownership";
   const subtitle = "By Sarem Agha";
 </script>
 
