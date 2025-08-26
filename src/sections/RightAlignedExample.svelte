@@ -50,16 +50,11 @@
 </div>
 
 <style>
-  .chart {
-    width: 90%;
-    margin: 0px auto;
-  }
-
   .main-image {
     width: 500px;
     height: 350px;
     object-fit: cover;
-    border-radius: 8px;
+    border-radius: 10px;
     box-shadow: 0 4px 12px 
   }
 </style>
