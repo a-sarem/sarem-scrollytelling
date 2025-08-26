@@ -1,105 +1,20 @@
 <script>
-  import * as Highcharts from "highcharts";
-  import "highcharts/modules/exporting";
-  import { Chart } from "@highcharts/svelte";
   import Scroller from "../lib/Scroller.svelte";
   import ArticleText from "../lib/ArticleText.svelte";
-
-  let options = {
-    chart: {
-      type: "pie",
-    },
-    title: {
-      text: "An Example Pie Chart",
-    },
-    plotOptions: {
-      pie: {
-        allowPointSelect: true,
-        dataLabels: [
-          {
-            enabled: true,
-            distance: 20,
-          },
-          {
-            enabled: true,
-            distance: -40,
-            format: "{point.percentage:.1f}%",
-            style: {
-              fontSize: "1.2em",
-              textOutline: "none",
-            },
-            filter: {
-              operator: ">",
-              property: "percentage",
-              value: 10,
-            },
-          },
-        ],
-      },
-    },
-    series: [
-      {
-        name: "Group",
-        data: [
-          {
-            name: "Group 1",
-            y: 151,
-          },
-          {
-            name: "Group 2",
-            sliced: true,
-            selected: true,
-            y: 180,
-          },
-          {
-            name: "Group 3",
-            y: 32,
-          },
-          {
-            name: "Group 4",
-            y: 103,
-          },
-          {
-            name: "Group 5",
-            y: 77,
-          },
-        ],
-      },
-    ],
-  };
 </script>
 
-<div>
-  <Scroller layout="right">
+<div class = "scrolly-section">
+  <Scroller layout = "right">
     {#snippet sticky()}
-      <div class="chart">
-        <Chart {options} highcharts={Highcharts} />
+      <div class = "image-container">
+        <img 
+        src = "/kwk-scrollytelling-template/secondpage_photo.jpg"
+        alt = "Business owner picture"
+        class = "main-image"
+        />
       </div>
-      <p>
-        Here's an example chart using
-        <a href="https://www.highcharts.com/">Highcharts</a>!
-      </p>
-      <p>
-        📈 <strong>Highcharts</strong> is a super-flexible library for creating
-        all kinds of charts. See demos of different chart types
-        <a href="https://www.highcharts.com/demo">here</a>.
-      </p>
-      <p>
-        Since we're using Highcharts through Svelte, the syntax is a little
-        different from what you might see in the demos. But all of Highcharts'
-        functionality is available through the Highcharts for Svelte package.
-      </p>
-      <p>
-        The configuration is done through the
-        <code>options</code> json object passed to the chart, which you'll see in
-        the source code for this template.
-      </p>
-      <p>
-        Use the
-        <a href="https://api.highcharts.com/highcharts/">API reference</a>
-        to understand what each element in the <code>options</code> object does.
-      </p>
-    {/snippet}
+      {/snippet}
+
 
     {#snippet scrolly()}
       <ArticleText>
@@ -115,15 +30,21 @@
       </ArticleText>
 
       <ArticleText>
-        The data shown will be focused in <strong>Cumberland County, North Carolina </strong> 
+        The data shown will be focused in <strong
+          >Cumberland County, North Carolina
+        </strong>
       </ArticleText>
 
       <ArticleText>
-        This project will try to answer this question: <br><br>
-        
-        <strong>“What are the key differences in business outcomes (e.g., revenue, profitability, employment) between Black-owned and white-owned businesses, and how much of that can be attributed to disparities in access to capital?”</strong>
-      
-    </ArticleText>
+        This project will try to answer this question: <br /><br />
+
+        <strong
+          >“What are the key differences in business outcomes (e.g., revenue,
+          profitability, employment) between Black-owned and white-owned
+          businesses, and how much of that can be attributed to disparities in
+          access to capital?”</strong
+        >
+      </ArticleText>
     {/snippet}
   </Scroller>
 </div>
@@ -132,5 +53,13 @@
   .chart {
     width: 90%;
     margin: 0px auto;
+  }
+
+  .main-image {
+    width: 500px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px 
   }
 </style>
