@@ -3,18 +3,17 @@
   import ArticleText from "../lib/ArticleText.svelte";
 </script>
 
-<div class = "scrolly-section">
-  <Scroller layout = "right">
+<div class="scrolly-section">
+  <Scroller layout="right">
     {#snippet sticky()}
-      <div class = "image-container">
-        <img 
-        src = "/kwk-scrollytelling-template/secondpage_photo.jpg"
-        alt = "Business owner picture"
-        class = "main-image"
+      <div class="image-container">
+        <img
+          src="/kwk-scrollytelling-template/secondpage_photo.jpg"
+          alt="Business owner picture"
+          class="main-image"
         />
       </div>
-      {/snippet}
-
+    {/snippet}
 
     {#snippet scrolly()}
       <ArticleText>
@@ -55,6 +54,6 @@
     height: 350px;
     object-fit: cover;
     border-radius: 10px;
-    box-shadow: 0 4px 12px 
+    box-shadow: 0 4px 12px;
   }
 </style>

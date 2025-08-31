@@ -4,96 +4,26 @@
   import { Chart } from "@highcharts/svelte";
   import Scroller from "../lib/Scroller.svelte";
   import ArticleText from "../lib/ArticleText.svelte";
-
-  const series = [
-    {
-      name: "Group 1",
-      data: [
-        [1990, 3],
-        [2000, 4],
-        [2010, 1],
-        [2020, 1],
-      ],
-      color: "#8427c9",
-    },
-    {
-      name: "Group 2",
-      data: [
-        [1990, 2],
-        [2000, 5],
-        [2010, -2],
-        [2020, 2],
-      ],
-      color: "#ff99fc",
-    },
-    {
-      name: "Group 3",
-      data: [
-        [1990, 4],
-        [2000, 3],
-        [2010, 0],
-        [2020, 3],
-      ],
-      color: "#4096fa",
-    },
-  ];
-
-  let chart;
-  let thirdSeriesVisible = false;
-
-  let options = {
-    chart: {
-      type: "spline",
-      backgroundColor: "#e3ff00",
-      borderColor: "#007052",
-      borderWidth: 5,
-      borderRadius: 20,
-    },
-    title: {
-      text: "Another Example Chart",
-    },
-    subtitle: {
-      text: "With a subtitle! And styling!",
-    },
-    series: [series[0], series[1]],
-  };
-
-  function toggleThirdSeries() {
-    const existingSeries = chart.series.find((s) => s.name === "Group 3");
-
-    if (existingSeries) {
-      existingSeries.remove();
-      thirdSeriesVisible = false;
-    } else {
-      chart.addSeries(series[2]);
-      thirdSeriesVisible = true;
-    }
-  }
 </script>
 
 <div>
   <Scroller layout="left">
     {#snippet sticky()}
-      <div class="chart">
-        <Chart bind:chart {options} highcharts={Highcharts} />
-      </div>
-      <button on:click={toggleThirdSeries} class="toggle-button">
-        {thirdSeriesVisible ? "Remove Group 3" : "Add Group 3"}
-      </button>
-      <div>
-        <p>
-          You can use Svelte to add and remove data from a Highcharts chart.
-        </p>
-        <p>
-          When you click the button above, a third group is toggled in the
-          chart. Check out the source code to see how it's done.
-        </p>
-        <p>
-          <strong
-            >🤔 How might you use other HTML elements, like checkboxes or radio
-            buttons, in a similar way to filter data?</strong
-          >
-        </p>
+      <div class="image-container">
+        <img
+          src="/kwk-scrollytelling-template/thirdpage_photo.jpg"
+          alt="Screenshot of BWDC website showing business support data"
+          class="main-image"
+        />
+
+        <div class="image-caption">
+          <p>
+            This is a screenshot from the <a
+              href="https://blackwealthdata.org/wealth-indicator?firstCounty=Cumberland%20County,%20North%20Carolina&secondCounty=national&method=auto"
+              >BWDC website</a
+            >
+          </p>
+        </div>
       </div>
     {/snippet}
 
@@ -119,9 +49,12 @@
 </div>
 
 <style>
-  .chart {
-    width: 90%;
-    margin: 0px auto;
+  .main-image {
+    width: 500px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px;
   }
 
   .toggle-button {
