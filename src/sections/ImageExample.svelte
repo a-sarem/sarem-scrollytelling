@@ -1,30 +1,38 @@
 <script>
-    import Scroller from "../lib/Scroller.svelte";
-    import ArticleText from "../lib/ArticleText.svelte";
+  import Scroller from "../lib/Scroller.svelte";
+  import ArticleText from "../lib/ArticleText.svelte";
 </script>
 
-<div>
-    <Scroller layout="right">
-        {#snippet sticky()}
-            <img class="duck-img" src="duck.png" alt="KWK rubber duck!" />
-        {/snippet}
+<div class="image-container">
+  <Scroller layout="right">
+    {#snippet sticky()}
+      <img
+        class="main-image"
+        src="/kwk-scrollytelling-template/fourthpage_photo.jpg"
+        alt="BWDC screenshot"
+      />
+    {/snippet}
 
-        {#snippet scrolly()}
-            <ArticleText>
-                <strong>
-                    Your final project might look totally different from this
-                    template!
-                </strong>
-            </ArticleText>
+    {#snippet scrolly()}
+      <ArticleText>
+        After discussing PPP loans, lets shift over to this chart, which
+        displays the growth and equity in entrepreneurship for Cumberland County
+      </ArticleText>
 
-            <ArticleText>It's yours to create.</ArticleText>
-        {/snippet}
-    </Scroller>
+      <ArticleText>
+        The economic opportunities/challenges (i.e. PPP loan distribution) could
+        be a factor to why business formations are a little less in this county
+        compared to the national.
+      </ArticleText>
+    {/snippet}
+  </Scroller>
 </div>
 
 <style>
-    .duck-img {
-        width: 25%;
-        margin: 0px auto;
-    }
+  .main-image {
+    width: 500px;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px;
+  }
 </style>
