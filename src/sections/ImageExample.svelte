@@ -24,6 +24,13 @@
         be a factor to why business formations are a little less in this county
         compared to the national.
       </ArticleText>
+
+      <ArticleText>
+        If Black-owned businesses face greater barriers to startup capital, they
+        may struggle with revenue, profitability, and sustaining employment.
+        This suggests that the unequal access to capital is an important factor
+        behind the differences in business outcomes.
+      </ArticleText>
     {/snippet}
   </Scroller>
 </div>
