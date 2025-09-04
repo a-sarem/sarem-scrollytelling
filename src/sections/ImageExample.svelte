@@ -11,6 +11,13 @@
         src="/kwk-scrollytelling-template/fourthpage_photo.jpg"
         alt="BWDC screenshot"
       />
+      <div class="image-caption">
+        <p>
+          This is a screenshot from the <a
+            href="https://blackwealthdata.org/explore/business">BWDC website</a
+          >
+        </p>
+      </div>
     {/snippet}
 
     {#snippet scrolly()}
