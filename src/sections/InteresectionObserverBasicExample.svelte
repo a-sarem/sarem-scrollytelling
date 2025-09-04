@@ -9,11 +9,7 @@
 <div class="image-container">
   <Scroller layout="left">
     {#snippet sticky()}
-      <img
-        class="main-image"
-        src="/sarem-scrollytelling/fifthpage_photo.jpg"
-        alt="BWDC screenshot"
-      />
+      <img class="main-image" src="fifthpage_photo.jpg" alt="BWDC screenshot" />
       <div class="image-caption">
         <p>
           This is a screenshot from the <a
