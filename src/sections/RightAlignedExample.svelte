@@ -38,8 +38,8 @@
         This project will try to answer this question: <br /><br />
 
         <strong
-          >“What are the key differences in business outcomes (e.g., revenue,
-          profitability, employment) between Black-owned and white-owned
+          >“What are the key differences in business outcomes (revenue,
+          profitability, employment, etc.) between Black-owned and white-owned
           businesses, and how much of that can be attributed to disparities in
           access to capital?”</strong
         >
