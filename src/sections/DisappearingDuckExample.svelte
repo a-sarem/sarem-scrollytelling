@@ -11,7 +11,7 @@
 
 <style>
   .background-container {
-    background-image: url("./titlepage_background.jpg");
+    background-image: url("/titlepage_background.jpg");
     background-size: cover;
     height: auto;
     background-position: center;
