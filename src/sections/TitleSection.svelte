@@ -9,6 +9,7 @@
 <div class="background-container">
   <TitleCard {title} {subtitle} />
 </div>
+<img src="./titlepage_background.jpg" alt="test" style="width:100px;" />
 
 <style>
   .background-container {
