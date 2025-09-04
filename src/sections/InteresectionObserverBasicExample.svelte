@@ -28,6 +28,13 @@
         still exist, which suggests that access to capital (not just the number
         of firms) is a major factor
       </ArticleText>
+
+      <ArticleText>
+        But if we go back to my original question, do these businesses achieve
+        the same outcomes as white-owned firms? How much of that gap is
+        explained by unequal access to capital, such as disparities in loan
+        approvals or investment opportunities?
+      </ArticleText>
     {/snippet}
   </Scroller>
 </div>
