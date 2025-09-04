@@ -23,7 +23,7 @@
     {#snippet scrolly()}
       <ArticleText>
         After discussing PPP loans, lets shift over to this chart, which
-        displays the growth and equity in entrepreneurship for Cumberland County
+        displays the growth and equity in entrepreneurship for Cumberland County.
       </ArticleText>
 
       <ArticleText>

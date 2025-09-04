@@ -24,13 +24,13 @@
       <ArticleText>
         We will focusing on Black-owned businesses and their access to loans and
         financial support shown in the <a href="https://blackwealthdata.org/"
-          >Black Wealth Data Center</a
+          >Black Wealth Data Center.</a
         >
       </ArticleText>
 
       <ArticleText>
         The data shown will be focused in <strong
-          >Cumberland County, North Carolina
+          >Cumberland County, North Carolina.
         </strong>
       </ArticleText>
 

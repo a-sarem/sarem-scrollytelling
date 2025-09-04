@@ -11,7 +11,7 @@
 
 <style>
   .background-container {
-    background-image: url("/kwk-scrollytelling-template/finalpage_photo.jpg");
+    background-image: url("/kwk-scrollytelling-template/titlepage_background.jpg");
     background-size: cover;
     height: auto;
     background-position: center;

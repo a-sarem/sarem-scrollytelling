@@ -33,7 +33,7 @@
         <ArticleText>
           Even in a state with high Black business ownership, unequal outcomes
           still exist, which suggests that access to capital (not just the
-          number of firms) is a major factor
+          number of firms) is a major factor.
         </ArticleText>
 
         <ArticleText>
