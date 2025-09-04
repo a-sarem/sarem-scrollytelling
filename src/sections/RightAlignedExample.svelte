@@ -50,8 +50,8 @@
 
 <style>
   .main-image {
-    width: 500px;
-    height: 350px;
+    width: 700px;
+    height: 450px;
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 4px 12px;

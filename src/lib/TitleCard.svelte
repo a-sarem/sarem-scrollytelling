@@ -24,7 +24,7 @@
   }
 
   .content {
-    max-width: 700px;
+    max-width: 900px;
     background-color: #623e2a;
     padding: 2rem;
     border-radius: 2rem;

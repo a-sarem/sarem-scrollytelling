@@ -24,32 +24,32 @@
     {/snippet}
 
     {#snippet scrolly()}
-        <ArticleText>
-          Looking statewide, North Carolina has over 9,000 Black-owned employer
-          firms, with a Black population of 20.6%. Which shows strong
-          representation in entrepreneurship.
-        </ArticleText>
+      <ArticleText>
+        Looking statewide, North Carolina has over 9,000 Black-owned employer
+        firms, with a Black population of 20.6%. Which shows strong
+        representation in entrepreneurship.
+      </ArticleText>
 
-        <ArticleText>
-          Even in a state with high Black business ownership, unequal outcomes
-          still exist, which suggests that access to capital (not just the
-          number of firms) is a major factor.
-        </ArticleText>
+      <ArticleText>
+        Even in a state with high Black business ownership, unequal outcomes
+        still exist, which suggests that access to capital (not just the number
+        of firms) is a major factor.
+      </ArticleText>
 
-        <ArticleText>
-          But if we go back to my original question, do these businesses achieve
-          the same outcomes as white-owned firms? How much of that gap is
-          explained by unequal access to capital, such as disparities in loan
-          approvals or investment opportunities?
-        </ArticleText>
+      <ArticleText>
+        But if we go back to my original question, do these businesses achieve
+        the same outcomes as white-owned firms? How much of that gap is
+        explained by unequal access to capital, such as disparities in loan
+        approvals or investment opportunities?
+      </ArticleText>
     {/snippet}
   </Scroller>
 </div>
 
 <style>
   .main-image {
-    width: 500px;
-    height: 350px;
+    width: 700px;
+    height: 450px;
     object-fit: fit;
     border-radius: 10px;
     box-shadow: 0 4px 12px;
