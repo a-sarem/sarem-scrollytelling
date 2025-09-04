@@ -8,7 +8,7 @@
     {#snippet sticky()}
       <div class="image-container">
         <img
-          src="/kwk-scrollytelling-template/secondpage_photo.jpg"
+          src="/sarem-scrollytelling/secondpage_photo.jpg"
           alt="Business owner picture"
           class="main-image"
         />

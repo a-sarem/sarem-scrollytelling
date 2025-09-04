@@ -11,7 +11,7 @@
     {#snippet sticky()}
       <img
         class="main-image"
-        src="/kwk-scrollytelling-template/finalpage_photo.jpg"
+        src="/sarem-scrollytelling/finalpage_photo.jpg"
         alt="BWDC screenshot"
       />
     {/snippet}

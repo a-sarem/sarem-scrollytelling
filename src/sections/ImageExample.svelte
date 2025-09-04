@@ -8,7 +8,7 @@
     {#snippet sticky()}
       <img
         class="main-image"
-        src="/kwk-scrollytelling-template/fourthpage_photo.jpg"
+        src="/sarem-scrollytelling/fourthpage_photo.jpg"
         alt="BWDC screenshot"
       />
       <div class="image-caption">
