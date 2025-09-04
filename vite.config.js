@@ -6,3 +6,5 @@ export default defineConfig({
   plugins: [svelte()],
   base: '/kwk-scrollytelling-template/'
 })
+
+
