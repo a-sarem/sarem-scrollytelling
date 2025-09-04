@@ -1,22 +1,15 @@
-# KWK Scrollytelling template
+# README
+This project was made for the KWK x BWDC Scrollytelling Challenge to research more about Black owned business, specfically in Cumberland County, North Carolina. All the data is from the Black Wealth Data Center. 
 
-This template is a starting point / example of how to create a scrollytelling piece using Svelte and Highcharts! 
+## Sources
+All of my insights are from here:
+- [JPMorganChase](https://www.jpmorganchase.com/institute/news-events/small-business-in-black-and-hispanic-communities)
+- [Black Wealth Data Center](https://blackwealthdata.org/wealth-indicator?firstCounty=Cumberland%20County%2C%20North%20Carolina&secondCounty=national)
 
-## Demo
-See a live demo of the page [here](https://jasminesamra.github.io/kwk-scrollytelling-template/)!
-
-## Recommended IDE Setup
-
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
-
-## How to clone the repo
-On this repo's homepage in GitHub, click the `Use this template` button. Select the option to create a new repository. This will create a new repo under your GitHub account.
-
-Navigate to your new copy of this template in your GitHub profile. 
-
-Clone your new repo locally and `cd` into it. 
-
-Run `npm install` and then `npm run dev` to spin up the project locally. Then, start making changes! You can use this repo as a starting point for your own final project or simply as an example. 
+## Imagery 
+- [Title page photo](https://www.google.com/url?sa=i&url=https%3A%2F%2Feverythingjerseycity.com%2Four-jc%2Fblack-lives-matter%2Fblack-owned-businesses%2F&psig=AOvVaw1L8Yka7siS7n00MmehrvpN&ust=1757097827071000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCIC3pNfhv48DFQAAAAAdAAAAABAE)
+- [1st section page](https://www.exploreminnesota.com/sites/default/files/styles/cover_16x9_desktop/public/2024-01/EMT_Anglers_StJoseph_Krewe_03_MateoMackbee.jpg.webp?itok=1juGH-BH)
+- [6th section page](https://www.google.com/url?sa=i&url=https%3A%2F%2Fsecretnyc.co%2Fnyc-black-owned-businesses%2F&psig=AOvVaw0vHXXVXXFiayN-dPygFaL0&ust=1757098010935000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCOjA16fiv48DFQAAAAAdAAAAABAE)
 
 ## Credit
 Repo created using vite (`npm create vite@6`)
