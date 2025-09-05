@@ -14,8 +14,8 @@ All of my insights are from here:
 Edited photos through [Canva](https://www.canva.com/)
 
 ## Credit
-Repo created using vite (`npm create vite@6`)
-Deployed through [Netlify](https://www.netlify.com/)
+- Repo created using vite (`npm create vite@6`)
+- Deployed through [Netlify](https://www.netlify.com/)
 
 ## Offical Website 
 Visit my website [here!](https://disparities-in-profit.netlify.app/)
