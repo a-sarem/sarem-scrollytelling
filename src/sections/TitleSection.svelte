@@ -1,19 +1,18 @@
 <script>
   import TitleCard from "../lib/TitleCard.svelte";
+  import titleBg from "/titlepage_background.jpg";
 
   const title =
     "Disparities in Profitability: A Study of Race & Business Ownership";
   const subtitle = "By Sarem Agha";
 </script>
 
-<div class="background-container">
+<div class="background-container" style="background-image: url({titleBg})">
   <TitleCard {title} {subtitle} />
 </div>
-<img src="./titlepage_background.jpg" alt="test" style="width:100px;" />
 
 <style>
   .background-container {
-    background-image: url("/titlepage_background.jpg");
     background-size: cover;
     height: auto;
     background-position: center;
