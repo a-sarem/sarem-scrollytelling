@@ -1,5 +1,5 @@
 # README
-This project was made for the KWK x BWDC Scrollytelling Challenge to research more about Black owned business, specfically in Cumberland County, North Carolina. All the data is from the Black Wealth Data Center. 
+This project was made for the KWK x BWDC Scrollytelling Challenge to research more about Black owned business, specifically in Cumberland County, North Carolina. All the data is from the Black Wealth Data Center. 
 
 ## Sources
 All of my insights are from here:
